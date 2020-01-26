@@ -1,0 +1,4 @@
+enum EquationType{
+  math,
+  physic
+}
