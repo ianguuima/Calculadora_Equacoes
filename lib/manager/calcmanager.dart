@@ -69,7 +69,7 @@ class CalcManager{
   // Fisica
 
   static var imagemEspelho = Calc.physic(
-    "/segundo_grau",
+    "/imamgem_espelho",
     "Imagens de um Objeto Entre Dois Espelhos Planos",
     Icons.wallpaper,
   );
