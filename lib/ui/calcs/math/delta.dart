@@ -1,3 +1,4 @@
+import 'package:calc/extensions/math_calcs.dart';
 import 'package:calc/main.dart';
 import 'package:calc/manager/calcmanager.dart';
 import 'package:calc/ui/base.dart';

@@ -16,19 +16,3 @@ void main() => runApp(MaterialApp(
     "/creditos" : (context) => Creditos(),
   }
 ));
-
-double delta(double a, double b, double c){
-  return (b * b) - 4 * a * c;
-}
-
-double factorial(double n) {
-  double total = 1.0;
-  double i = 1.0;
-
-  while (i <= n) {
-    total = total * i;
-    i = i + 1.0;
-  }
-
-  return total;
-}

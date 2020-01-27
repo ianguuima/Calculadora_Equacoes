@@ -1,9 +1,10 @@
 
 
-import 'package:calc/main.dart';
 import 'package:calc/manager/calcmanager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
+import 'package:calc/extensions/math_calcs.dart';
+
 
 import '../../base.dart';
 
@@ -45,7 +46,7 @@ class _Permutacao extends Equation{
   makeCalc() {
     double value = double.parse(fields[0].getText());
 
-    return new MaskedTextController(mask: '000.000.000.00', text: factorial(value).toString()).text;
+    return new MaskedTextController(mask: '000.000.000.00', text: value.factorial().toString()).text;
   }
 
 }

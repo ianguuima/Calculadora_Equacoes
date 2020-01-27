@@ -57,11 +57,11 @@ class _MainDrawerState extends State<MainDrawer> {
   }
 
 
-  List<Widget> createDivider(String materia){
+  List<Widget> createDivider(String subject){
     return [
       Divider(),
       Text(
-        materia,
+        subject,
         style: TextStyle(color: Colors.black38, fontSize: 14),
         textAlign: TextAlign.center,
       ),
